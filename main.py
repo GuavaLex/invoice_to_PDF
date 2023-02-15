@@ -54,7 +54,7 @@ for filepath in filepaths:
     pdf.set_font(family="Times", size=20, style="B")
     pdf.set_text_color(80, 80, 80)
     pdf.cell(w=30, h=8, txt=f"The total Sum is {total_sum}", ln=1)
-
+    #company signature
     pdf.set_font(family="Times", size=14, style="B")
     pdf.cell(w=25, h=8, txt=f"PythonHow")
     pdf.image("pythonhow.png", w=10)
